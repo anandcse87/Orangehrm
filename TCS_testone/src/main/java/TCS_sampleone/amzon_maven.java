@@ -10,8 +10,8 @@ public class amzon_maven {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver dr=new ChromeDriver();
-		//dr.get("https://www.amazon.in/");
-		dr.get("https://www.myntra.com/");
+		dr.get("https://www.amazon.in/");
+		//dr.get("https://www.myntra.com/");
 		dr.manage().window().maximize();
 	}
 }
